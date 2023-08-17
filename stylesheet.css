@@ -1,0 +1,16 @@
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 960px;
+    width: 960px;
+    border: 1px red solid;
+    margin: auto;
+}
+
+.grid {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    border: 1px blue dashed;
+}
