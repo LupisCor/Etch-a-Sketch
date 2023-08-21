@@ -1,14 +1,14 @@
+
+
 .grid-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 960px;
-    width: 960px;
+    height: 500px;
+    width: 500px;
     border: 1px red solid;
     margin: auto;
 }
 
-.grid {
+.cell {
     flex: 1;
     margin: 0;
     padding: 0;
