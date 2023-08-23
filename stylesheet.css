@@ -1,15 +1,14 @@
 
 
 .grid-container {
-    display: flex;
+    display: grid;
     height: 500px;
     width: 500px;
     border: 1px red solid;
     margin: auto;
 }
 
-.cell {
-    flex: 1;
+.grid-cell {
     margin: 0;
     padding: 0;
     border: 1px blue dashed;
